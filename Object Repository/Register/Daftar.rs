@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Daftar</name>
+   <tag></tag>
+   <elementGuidId>021a798a-e13c-4f6c-befa-cb7b10cc5d47</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;buttonDaftar&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'buttonDaftar' and (text() = 'Daftar' or . = 'Daftar')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>buttonDaftar</value>
+      <webElementGuid>aab1e29f-5b6d-4fe6-b379-20f849ff0411</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daftar</value>
+      <webElementGuid>56d55ee2-03b0-4d42-8d6c-d2bd3ddd543b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

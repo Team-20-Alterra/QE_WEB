@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>UserID</name>
+   <tag></tag>
+   <elementGuidId>738b8d5e-2996-4891-9dd1-51522f144837</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;exampleModal&quot;]/div/div/div[2]/form/div[1]/ul/li</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[@class = 'list-group-item' and @value = '${id}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>list-group-item</value>
+      <webElementGuid>a6bbba3d-1fea-4559-8614-75b4c7bd6fc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>e285d9e3-fe93-43b1-b846-6607b4d0de0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>${id}</value>
+      <webElementGuid>37bc271d-f71c-4fe8-a7d4-1046dc9de31e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

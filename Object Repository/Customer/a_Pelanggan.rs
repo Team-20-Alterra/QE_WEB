@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Pelanggan</name>
+   <tag></tag>
+   <elementGuidId>177ca65f-4c7d-49c6-8a9a-bf2a2b7c4cdd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/div/a[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0f5ca5b9-22db-4eb7-bdcd-0eb714c7289e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link</value>
+      <webElementGuid>5ac8f321-ba15-4dc9-8003-15c9236787c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/pelanggan</value>
+      <webElementGuid>0fec11a0-e536-465c-8833-0d24a3afbdce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Pelanggan</value>
+      <webElementGuid>7344d806-411f-4d01-a02c-d8b46f52d9ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;d-flex flex-column align-items-center sticky-top containerSidebar&quot;]/div[@class=&quot;d-flex flex-column nav nav-pills w-100 h-100&quot;]/a[@class=&quot;nav-link&quot;]</value>
+      <webElementGuid>1e155fe5-ca26-4a01-a1f6-92a4a2f7c59d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/a[3]</value>
+      <webElementGuid>25629144-8a8d-488e-98bd-4582fa9fa29a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoice'])[1]/following::a[1]</value>
+      <webElementGuid>3de14123-e6be-4938-a42a-d02fa72882d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beranda'])[1]/following::a[2]</value>
+      <webElementGuid>71550f43-46c0-4b9f-b1e9-48c663f3d4a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Riwayat'])[1]/preceding::a[1]</value>
+      <webElementGuid>6f247d2a-97fa-4338-b864-aeea355471fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/admin/pelanggan')]</value>
+      <webElementGuid>26c57126-0c03-43ae-8ed5-a0c5ecfad997</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]</value>
+      <webElementGuid>03a9b0f4-de83-4377-b75e-737b2a036cb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/admin/pelanggan' and (text() = ' Pelanggan' or . = ' Pelanggan')]</value>
+      <webElementGuid>0b16b17e-2e6e-4f26-a055-95a5ef94ff29</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

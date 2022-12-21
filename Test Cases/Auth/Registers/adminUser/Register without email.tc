@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register without email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b01b4e5f-45ff-46ae-b5a2-b60590584922</testCaseGuid>
+</TestCaseEntity>

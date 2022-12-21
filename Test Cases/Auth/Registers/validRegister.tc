@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>validRegister</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7e49d7f-9dbe-433f-a478-430a274ae375</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>09b054eb-718f-48d0-8579-98ce8dd47a06</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.pass</defaultValue>
+      <description></description>
+      <id>09b054eb-718f-48d0-8579-98ce8dd47a06</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>

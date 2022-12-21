@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Beranda</name>
+   <tag></tag>
+   <elementGuidId>429a1dbc-eb08-494b-90ce-b2500e2086b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.nav-link.active</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b6abe321-3d56-42dd-8f55-dc80261a0548</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link active</value>
+      <webElementGuid>4e5a739e-a238-4203-8e8d-c31ce5c7fd94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/beranda</value>
+      <webElementGuid>1a13d6aa-052f-4e83-8d58-ef6f9baa3b44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-current</name>
+      <type>Main</type>
+      <value>page</value>
+      <webElementGuid>04fe5aae-0a70-4d19-b835-7df7c4d14791</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Beranda</value>
+      <webElementGuid>e1f01506-505a-48a1-98e6-f1516dcedc3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;d-flex flex-column align-items-center sticky-top containerSidebar&quot;]/div[@class=&quot;d-flex flex-column nav nav-pills w-100 h-100&quot;]/a[@class=&quot;nav-link active&quot;]</value>
+      <webElementGuid>68bc9e96-f5b3-4f91-b658-a88dd6f271f3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/a</value>
+      <webElementGuid>63668627-5667-4ea8-b4ba-eebc3d363383</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ginap'])[1]/following::a[1]</value>
+      <webElementGuid>028700b9-5471-4202-a71e-d1667b8d77a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='invalid or expired jwt'])[1]/following::a[1]</value>
+      <webElementGuid>9a357d36-706b-49a2-b6f5-b1efaa2b1fe9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoice'])[1]/preceding::a[1]</value>
+      <webElementGuid>6cb11322-0bf6-412e-a905-07f5ac67873e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/admin/beranda')]</value>
+      <webElementGuid>1178da2c-2bea-4ccb-b1bc-7ac7cbda0d2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>8241cc2e-1d80-495a-a265-67b1d6628b81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/admin/beranda' and (text() = ' Beranda' or . = ' Beranda')]</value>
+      <webElementGuid>1cdd06c3-ab51-41a4-b407-c8884f7c81b1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
