@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Auth/Registers/adminUser/validRegister -adminUser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Auth/Register - adminUser/validRegister -adminUser'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Register_Business/input_Ginap_Bussines_Name'), 'AVANGER')
 

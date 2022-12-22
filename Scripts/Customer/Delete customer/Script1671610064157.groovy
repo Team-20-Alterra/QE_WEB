@@ -17,25 +17,35 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Auth/validLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.link)
+WebUI.refresh()
 
-WebUI.setViewPortSize(1366, 720)
+WebUI.click(findTestObject('Customer/a_Pelanggan'))
 
-WebUI.click(findTestObject('Object Repository/Register/Daftar'))
+WebUI.verifyElementPresent(findTestObject('Customer/p_Pelanggan'), 0)
 
-String unique = System.currentTimeMillis().toString()
+WebUI.click(findTestObject('Customer/button_Customer'))
 
-WebUI.setText(findTestObject('Register/input_Ginap_Name'), 'mg')
+if(WebUI.verifyElementNotPresent(findTestObject('Object Repository/Customer/delete user'), 0)) {
+	
+	Random rnd = new Random()
+	
+	int ID = rnd.nextInt(4)
+	
+	WebUI.setText(findTestObject('Customer/input_User ID_input'), "$ID")
+	
+	WebUI.click(findTestObject('Customer/UserID', [('id') : 1]))
+	
+	WebUI.click(findTestObject('Customer/button_Tambahkan'))
+}else {
+	
+	WebUI.click(findTestObject('Object Repository/Customer/delete user'))
+	
+	WebUI.verifyElementNotPresent(findTestObject('Object Repository/Customer/delete user'))
+	
+}
 
-WebUI.setText(findTestObject('Register/input_Ginap_Email'), ('mg' + unique) + '@gmail.com')
 
-WebUI.setText(findTestObject('Register/input_Ginap_Password'), 'NoGame-NoLife177')
-
-WebUI.click(findTestObject('Register/show_Hide_Password'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Register/button_Berikutnya'))
+WebUI.refresh()
 

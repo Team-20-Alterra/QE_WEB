@@ -13,16 +13,20 @@
          <key>XPATH</key>
          <value>//input[@value='']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @class = 'inputModal' and @placeholder = 'User ID']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a5cd9d22-eb96-45fc-bc6f-a9d55e0fa6ce</webElementGuid>
+      <webElementGuid>e7d411de-8713-45da-a93d-444f13c19dab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,15 +34,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>a0b6c6fd-3344-4f7e-988c-c550b7a371d7</webElementGuid>
+      <webElementGuid>02a4d603-2bf1-42eb-b370-e3986e262d69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>inputModal</value>
-      <webElementGuid>8de6142b-2284-4d24-9c8a-f2956e453713</webElementGuid>
+      <webElementGuid>10e0ceb8-cb90-4fdb-bffc-2d6326c4c0ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>User ID</value>
-      <webElementGuid>da88cd0d-f28d-4438-9953-d22a72a71e4f</webElementGuid>
+      <webElementGuid>00069a3c-2f96-41ca-b91e-8bea46a2b348</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;exampleModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/form[1]/input[@class=&quot;inputModal&quot;]</value>
-      <webElementGuid>f616b015-d766-492f-b769-6aa2da8c2bfe</webElementGuid>
+      <webElementGuid>64590177-a25f-455f-985c-fa435fc813d8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='']</value>
-      <webElementGuid>492fb64d-3806-4166-a1a9-11c25c5da5ad</webElementGuid>
+      <webElementGuid>ffbf5ce0-ea4d-404b-aa0e-c76f1311ca3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='exampleModal']/div/div/div[2]/form/input</value>
-      <webElementGuid>089ac792-bb07-4899-83d0-bfa2d76dc1f9</webElementGuid>
+      <webElementGuid>b959631d-c1b7-4f60-ae0d-e15fbba8f2f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/input</value>
-      <webElementGuid>f1aa78ea-fb5e-483b-a30b-e0d3829bdad3</webElementGuid>
+      <webElementGuid>e3c5ca72-5dd9-48b7-b5ea-f8258323942b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'User ID']</value>
-      <webElementGuid>138d1187-1de5-490e-8557-82e0d42fad32</webElementGuid>
+      <webElementGuid>85d57981-1510-4ce6-87e2-1b1af7541de8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

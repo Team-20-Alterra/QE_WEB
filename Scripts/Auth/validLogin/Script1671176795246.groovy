@@ -31,7 +31,7 @@ WebUI.setText(findTestObject('Login/input_Ginap_password'), GlobalVariable.pass)
 
 WebUI.click(findTestObject('Login/show_Hide_Password'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Login/button_Masuk'))
 

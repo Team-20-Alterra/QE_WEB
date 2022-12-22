@@ -11,14 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;exampleModal&quot;]/div/div/div[2]/form/div[1]/ul/li</value>
+         <value>//*[@id=&quot;exampleModal&quot;]/div/div/div[2]/form/div[1]/ul/li[${id}]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//li[@class = 'list-group-item' and @value = '${id}']</value>
+         <value>//li[@class = 'list-group-item']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>class</name>
       <type>Main</type>
       <value>list-group-item</value>
-      <webElementGuid>a6bbba3d-1fea-4559-8614-75b4c7bd6fc4</webElementGuid>
+      <webElementGuid>8e1fb86d-414d-4a3a-bdeb-6b92bc4c0d08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,14 +34,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>e285d9e3-fe93-43b1-b846-6607b4d0de0f</webElementGuid>
+      <webElementGuid>fef9cf5f-4e48-4ce1-a848-6b139a71d7fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>${id}</value>
-      <webElementGuid>37bc271d-f71c-4fe8-a7d4-1046dc9de31e</webElementGuid>
+      <webElementGuid>c974e306-3dec-4776-bee9-79324c2d2dc4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
