@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'NoGameNoLife177'</initValue>
-      <name>pass</name>
+      <initValue>'mg1671687299954@gmail.com'</initValue>
+      <name>email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'mg1671687299954@gmail.com'</initValue>
-      <name>email</name>
+      <initValue>'NoGameNoLife177'</initValue>
+      <name>pass</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>price_total_aftrDisc</name>
+   <tag></tag>
+   <elementGuidId>c91fac20-ab42-4e18-a518-7ef9aa6af4a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div[2]/div/div[5]/div[3]/div[3]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>920fe640-2c0f-415d-9985-2ac81a05ecd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rp 8.000,00</value>
+      <webElementGuid>3ab7ac36-82fc-4edf-a443-96494383ae6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;flex-column w-100&quot;]/div[@class=&quot;container-content mb-5-content&quot;]/div[@class=&quot;invoice-item__summary mt-5 d-flex justify-content-between&quot;]/div[@class=&quot;invoice-item__pricing d-flex justify-content-end flex-column gap-2&quot;]/div[@class=&quot;invoice-item__total&quot;]/div[2]</value>
+      <webElementGuid>a2fc3892-a80c-4543-a412-455f76d1eaec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div[2]/div/div[5]/div[3]/div[3]/div[2]</value>
+      <webElementGuid>ba822deb-cd08-4480-8244-dc1d3a3a7a72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::div[1]</value>
+      <webElementGuid>75a0f5fc-99cb-415a-8a5d-84632819a0e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='%'])[1]/following::div[3]</value>
+      <webElementGuid>d5cb3b46-c30a-4ee9-a9b8-1c99f614f43c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kirim Invoice'])[1]/preceding::div[1]</value>
+      <webElementGuid>369ec686-0abe-428e-b024-9dd8b458ef2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Rp 8.000,00']/parent::*</value>
+      <webElementGuid>a193088a-cc6c-406f-b98d-c5dd849319c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[3]/div[2]</value>
+      <webElementGuid>0d6e56ec-b26d-47c5-8d4d-36e9cdf01379</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Rp 8.000,00' or . = 'Rp 8.000,00')]</value>
+      <webElementGuid>edb4915c-9b81-4f4d-b273-51c40fe2522b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

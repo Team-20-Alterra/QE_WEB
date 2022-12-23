@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create new customer with empty userID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1042ebe-8dc8-4709-8b23-6ffd9c371e27</testCaseGuid>
+</TestCaseEntity>

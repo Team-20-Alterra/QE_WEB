@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_90</name>
+   <tag></tag>
+   <elementGuidId>4fa55dae-267f-450d-983f-4244d351d11f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div[2]/div/div[6]/div[2]/div[2]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>348a5720-69a7-43bb-afd2-822d83c81e5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>90 %</value>
+      <webElementGuid>e6c66b44-88fb-4bef-bad3-8b7a814292c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;flex-column w-100&quot;]/div[@class=&quot;container-content mb-5-content&quot;]/div[@class=&quot;invoice-item__summary mt-5 d-flex justify-content-between&quot;]/div[@class=&quot;d-flex justify-content-end flex-column gap-2&quot;]/div[@class=&quot;invoice-item__diskon d-flex justify-content-between&quot;]/div[2]</value>
+      <webElementGuid>c9ec709f-5826-4a51-ba2e-dc2ce20f618a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div[2]/div/div[6]/div[2]/div[2]/div[2]</value>
+      <webElementGuid>ddfad361-4e20-4d52-9bcf-7a80d22a52d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diskon'])[1]/following::div[1]</value>
+      <webElementGuid>e7dcb721-a852-4641-b84d-9843eb0981cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/preceding::div[1]</value>
+      <webElementGuid>c0d36083-3e93-4a7e-ba48-7968ccf1b63f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='90']/parent::*</value>
+      <webElementGuid>6bfd8c49-fdb0-455a-a707-ee01fd072a2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div[2]/div[2]/div[2]</value>
+      <webElementGuid>5247f632-03ac-41ea-933b-2ed3e658682b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '90 %' or . = '90 %')]</value>
+      <webElementGuid>4211e169-d7f1-44d0-a819-d4669d55b4d9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -17,26 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Auth/A - DLL/validRegister -adminUser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Auth/Register_Business/input_Ginap_Bussines_Name'), 'AVANGER')
-
-WebUI.setText(findTestObject('Auth/Register_Business/input_Ginap_Address'), 'Indonesia pride')
-
-String unique = System.currentTimeMillis().toString()
-
-WebUI.setText(findTestObject('Auth/Register_Business/input_Ginap_No_Telp'), unique)
-
-WebUI.selectOptionByValue(findTestObject('Auth/Register_Business/select_Jenis Bisnis'), 'Elektronik', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Auth/Register_Business/Page_React App/select_Bank002 - Bank BRI009 - Bank BNI'), 
-    '1', true)
-
-WebUI.setText(findTestObject('Auth/Register_Business/input_Ginap_Rekening'), unique)
-
-WebUI.click(findTestObject('Auth/Register_Business/button_Mulai'))
-
-WebUI.verifyElementVisible(findTestObject('Auth/Login/Logged in'))
+WebUI.callTestCase(findTestCase('Auth/validLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.refresh()
+
+WebUI.click(findTestObject('a_Riwayat'))
+
+WebUI.click(findTestObject('Object Repository/Invoice/Page_React App/div_Riwayat'))
+
+WebUI.setText(findTestObject('Object Repository/Invoice/Page_React App/input'), '2')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Invoice/Page_React App/invoice card'),0)
 

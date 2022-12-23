@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>show_Hide_Password</name>
+   <tag></tag>
+   <elementGuidId>43c609f6-538a-469b-8b78-5875746f1701</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.icon.mt-1</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;root&quot;)/div[@class=&quot;Wrap&quot;]/div[@class=&quot;containerLogin d-flex flex-column justify-content-center&quot;]/form[1]/div[@class=&quot;inputChangePassword&quot;]/span[@class=&quot;icon mt-1&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/form/div[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d0c2e120-2421-4d97-81e8-5444eb6fde24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon mt-1</value>
+      <webElementGuid>110fe13d-ab2b-4bf0-929b-d83784990ff6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;Wrap&quot;]/div[@class=&quot;containerLogin d-flex flex-column justify-content-center&quot;]/form[1]/div[@class=&quot;inputChangePassword&quot;]/span[@class=&quot;icon mt-1&quot;]</value>
+      <webElementGuid>97d47098-05b9-4097-b8da-e52e5f767771</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/form/div[3]/span</value>
+      <webElementGuid>3698c859-7f85-41ff-a5f9-530eb2b2ac14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ginap'])[1]/following::span[1]</value>
+      <webElementGuid>f3d7f8fd-5e5c-42cc-8080-cb75e3495966</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kata sandi minimal 8 karakter. Gunakan huruf kapital, huruf kecil dan angka numerik.'])[1]/preceding::span[1]</value>
+      <webElementGuid>7a13c272-ec1f-475e-8ca7-71960661290a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Berikutnya'])[1]/preceding::span[1]</value>
+      <webElementGuid>f5538f03-354a-4c9e-ab50-d8cb673e59a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>eb89cab8-9cf7-4157-bb18-285811b614fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

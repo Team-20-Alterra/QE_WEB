@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Bank</name>
+   <tag></tag>
+   <elementGuidId>a310f47a-5c95-4b9a-a397-ce9911b1b8a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;bank_id&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//select[@id=''])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>2a17d99e-ac99-4bb6-b0f6-43c1cf90d582</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>bank_id</value>
+      <webElementGuid>cfa3339b-953e-4504-8013-cb13ede5b98e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input mt-7</value>
+      <webElementGuid>3686fd50-fd71-47fc-8cc9-a6c68ddb09f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bank002 - Bank BRI009 - Bank BNI</value>
+      <webElementGuid>ed560194-358f-4a91-98ee-60c25355d2f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;Wrap&quot;]/div[@class=&quot;containerLogin d-flex flex-column justify-content-center&quot;]/form[@class=&quot;register-business__form&quot;]/select[@class=&quot;input mt-7&quot;]</value>
+      <webElementGuid>78f6c87b-e9d5-4b2b-a91a-a5edbfc0f3f0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//select[@id=''])[2]</value>
+      <webElementGuid>ea9256ac-05ff-40c8-92f5-d40bfa463957</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/form/select[2]</value>
+      <webElementGuid>f21b8848-54b9-4274-bdc1-f46e6cf9d68c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ginap'])[1]/following::select[2]</value>
+      <webElementGuid>a06dfb02-989e-464f-b4b8-6798df8cef10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah Logo'])[1]/preceding::select[1]</value>
+      <webElementGuid>be055f7e-f704-4351-99b5-7c3e5e9b90ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mulai'])[1]/preceding::select[1]</value>
+      <webElementGuid>268f3a4d-50d2-417e-848d-8e04d7ab2aec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select[2]</value>
+      <webElementGuid>324febd4-7695-4fbc-85dc-fea3016c936f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'bank_id' and (text() = 'Bank002 - Bank BRI009 - Bank BNI' or . = 'Bank002 - Bank BRI009 - Bank BNI')]</value>
+      <webElementGuid>780c2be7-2966-4542-bbb4-08a913622df0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

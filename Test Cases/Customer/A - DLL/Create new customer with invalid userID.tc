@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create new customer with invalid userID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>33815a98-9c20-4788-8287-c6d11e89400d</testCaseGuid>
+</TestCaseEntity>

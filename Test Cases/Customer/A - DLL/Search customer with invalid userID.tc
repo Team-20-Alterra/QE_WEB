@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search customer with invalid userID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ad50cf1-053b-4545-a5ad-e565fd4c47aa</testCaseGuid>
+</TestCaseEntity>

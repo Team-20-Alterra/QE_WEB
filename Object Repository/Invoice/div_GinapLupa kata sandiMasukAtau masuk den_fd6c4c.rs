@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_GinapLupa kata sandiMasukAtau masuk den_fd6c4c</name>
+   <tag></tag>
+   <elementGuidId>0cf91377-5ed2-482d-9f67-d35dc6309aa6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.Wrap</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a525b403-87d8-47be-a942-92086c338a54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Wrap</value>
+      <webElementGuid>d6ac7546-555d-40fc-8bcd-d532f3ca4f2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> GinapLupa kata sandi?MasukAtau masuk dengan GoogleBelum punya akun?</value>
+      <webElementGuid>3a64ed42-a3ed-4fdc-9391-a3b3a1a55f74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;Wrap&quot;]</value>
+      <webElementGuid>a42886a2-7245-4e56-8ec6-87f9626d96fe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]</value>
+      <webElementGuid>9d1b551b-11f1-4ebc-920b-f3307b08e56e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]</value>
+      <webElementGuid>df0e843e-2f92-4007-b6fb-74ce9608faff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' GinapLupa kata sandi?MasukAtau masuk dengan GoogleBelum punya akun?' or . = ' GinapLupa kata sandi?MasukAtau masuk dengan GoogleBelum punya akun?')]</value>
+      <webElementGuid>0762c722-d853-4a1f-87ad-966641708ddd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

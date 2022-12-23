@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_manusia ( 34)</name>
+   <tag></tag>
+   <elementGuidId>92809164-7c20-4b25-b693-04071cbd97a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.head-invoice.w-50 > h6.judul</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div[2]/div/div[4]/div[2]/div[2]/div[3]/h6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>aa180fed-c6af-4f77-9d40-3721460ffb23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>judul</value>
+      <webElementGuid>2ae0b656-1dd2-4f85-ab6c-b39a8d511fdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>manusia (# 34)</value>
+      <webElementGuid>1807bffc-c1cc-478a-b10a-19864a78b136</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;flex-column w-100&quot;]/div[@class=&quot;container-content mb-5-content&quot;]/div[@class=&quot;detailHeader d-flex&quot;]/div[@class=&quot;w-50&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;head-invoice w-50&quot;]/h6[@class=&quot;judul&quot;]</value>
+      <webElementGuid>40020b39-49b2-4d80-96de-368e8fd87451</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div[2]/div/div[4]/div[2]/div[2]/div[3]/h6</value>
+      <webElementGuid>58ca9c65-8f38-4c7f-ad3f-fed8336978fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[7]/following::h6[1]</value>
+      <webElementGuid>a1fab244-6006-497d-a660-59dcd08e17a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[6]/following::h6[2]</value>
+      <webElementGuid>6ee415c8-ac38-4ff2-866a-74f6d7c64741</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item'])[1]/preceding::h6[3]</value>
+      <webElementGuid>b594db3e-cc08-4d86-b51b-3b9aa76ca06c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jumlah'])[1]/preceding::h6[3]</value>
+      <webElementGuid>381b5e29-a89b-4803-a5cc-86062c6b8817</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='manusia']/parent::*</value>
+      <webElementGuid>0a75a611-5688-4295-8afc-cff738b0e281</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[3]/h6</value>
+      <webElementGuid>41b31e27-6899-4f05-beb5-b3d24ba52411</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'manusia (# 34)' or . = 'manusia (# 34)')]</value>
+      <webElementGuid>dad887ea-e551-4b04-a347-237a8d0ab3d8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

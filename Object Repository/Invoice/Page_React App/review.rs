@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>review</name>
+   <tag></tag>
+   <elementGuidId>95d493cd-950d-4703-a905-b1915324b249</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div[2]/div/div[6]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.d-flex.justify-content-end.flex-column.gap-2</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@class = 'btn-review' and @value = 'Review']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c62d2772-a636-4221-9d4d-a9a40c84727b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-review</value>
+      <webElementGuid>950695db-683c-46c6-a995-d55737dd89b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Review</value>
+      <webElementGuid>b6906232-7614-4d26-8011-21680206db11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;flex-column w-100&quot;]/div[@class=&quot;container-content mb-5-content&quot;]/div[@class=&quot;invoice-item__summary mt-5 d-flex justify-content-between&quot;]/div[@class=&quot;d-flex justify-content-end flex-column gap-2&quot;]</value>
+      <webElementGuid>c9ef44cc-9993-49c3-ab35-a6a8c33c8a66</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div[2]/div/div[6]/div[2]</value>
+      <webElementGuid>7a8ec2e7-c443-427d-a89e-4cc9421af625</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Catatan :'])[1]/following::div[1]</value>
+      <webElementGuid>889d36f5-805a-4f98-bb4c-7e3177afa7fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 22.604.610,00'])[1]/following::div[4]</value>
+      <webElementGuid>21906111-5227-4a0c-ac3f-4f09d6564351</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div[2]</value>
+      <webElementGuid>63cb2534-3233-43f1-a225-b17919c824f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'SubtotalRp 66.855.540,00Diskon90 %TotalRp 6.685.554,00ReviewLunasGagal' or . = 'SubtotalRp 66.855.540,00Diskon90 %TotalRp 6.685.554,00ReviewLunasGagal')]</value>
+      <webElementGuid>5c888057-2b90-4a53-a1eb-158712b1e5d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

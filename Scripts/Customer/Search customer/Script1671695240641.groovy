@@ -25,49 +25,24 @@ WebUI.click(findTestObject('a_Pelanggan'))
 
 WebUI.verifyElementPresent(findTestObject('Customer/p_Pelanggan'), 0)
 
-WebUI.click(findTestObject('Customer/button_Customer'))
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Customer/customer card'), 10, FailureHandling.CONTINUE_ON_FAILURE) == 
+false) {
+    Random rnd = new Random()
 
-WebUI.verifyElementPresent(findTestObject('Customer/modal'), 0)
+    int ID = rnd.nextInt(4)
 
-Random rnd = new Random()
-
-int ID = 4
-
-WebUI.setText(findTestObject('Customer/input_User ID_input'), "$ID")
-
-int i = 1
-
-WebUI.click(findTestObject('Customer/UserID', [('id') : i]))
-
-WebUI.click(findTestObject('Customer/button_Tambahkan'))
-
-while (WebUI.verifyElementPresent(findTestObject('Object Repository/ERROR'), 5, FailureHandling.OPTIONAL) == true) {
-    WebUI.comment((((('ID(' + ID) + ')') + '\tRow(') + i) + ')')
+	WebUI.click(findTestObject('Customer/button_Customer'))
 
     WebUI.setText(findTestObject('Customer/input_User ID_input'), "$ID")
 
-    i++
+    WebUI.click(findTestObject('Customer/UserID', [('id') : 1]))
 
-    if (WebUI.verifyElementClickable(findTestObject('Customer/UserID', [('id') : i]), FailureHandling.OPTIONAL)) {
-        WebUI.click(findTestObject('Customer/UserID', [('id') : i]))
-    } else {
-        i = 1
-
-        ID--
-
-        if (ID < 0) {
-            break
-        }
-        
-        WebUI.setText(findTestObject('Customer/input_User ID_input'), "$ID")
-
-        WebUI.click(findTestObject('Customer/UserID', [('id') : i]))
-    }
-    
     WebUI.click(findTestObject('Customer/button_Tambahkan'))
 }
 
-WebUI.verifyElementNotVisible(findTestObject('Customer/modal'), FailureHandling.STOP_ON_FAILURE)
+customer_name = WebUI.getAttribute(findTestObject('Customer/customer card'),'id')
 
-WebUI.verifyElementPresent(findTestObject('SUCCESS'), 0)
+WebUI.setText(findTestObject('Object Repository/Customer/input_Search w-25'), customer_name)
+
+WebUI.verifyTextPresent(customer_name, false)
 

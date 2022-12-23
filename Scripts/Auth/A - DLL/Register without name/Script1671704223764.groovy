@@ -17,26 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Auth/A - DLL/validRegister -adminUser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.setText(findTestObject('Auth/Register_Business/input_Ginap_Bussines_Name'), 'AVANGER')
+WebUI.navigateToUrl(GlobalVariable.link)
 
-WebUI.setText(findTestObject('Auth/Register_Business/input_Ginap_Address'), 'Indonesia pride')
+WebUI.setViewPortSize(1366, 720)
 
 String unique = System.currentTimeMillis().toString()
 
-WebUI.setText(findTestObject('Auth/Register_Business/input_Ginap_No_Telp'), unique)
+WebUI.click(findTestObject('Object Repository/Auth/Register/Daftar'))
 
-WebUI.selectOptionByValue(findTestObject('Auth/Register_Business/select_Jenis Bisnis'), 'Elektronik', true)
+WebUI.setText(findTestObject('Auth/Register/input_Ginap_Email'), ('mg' + unique) + '@gmail.com')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Auth/Register_Business/Page_React App/select_Bank002 - Bank BRI009 - Bank BNI'), 
-    '1', true)
+WebUI.setEncryptedText(findTestObject('Auth/Register/input_Ginap_Password'), 'GwweH0yE+9LB0jmG5uIxhxlv365DRkcq')
 
-WebUI.setText(findTestObject('Auth/Register_Business/input_Ginap_Rekening'), unique)
+WebUI.click(findTestObject('Auth/Register/show_Hide_Password'))
 
-WebUI.click(findTestObject('Auth/Register_Business/button_Mulai'))
+WebUI.click(findTestObject('Auth/Register/button_Berikutnya'))
 
-WebUI.verifyElementVisible(findTestObject('Auth/Login/Logged in'))
-
-WebUI.refresh()
-
+WebUI.verifyElementPresent(findTestObject('Auth/Register/p_This field is required'), 0)

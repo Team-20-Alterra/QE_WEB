@@ -23,17 +23,17 @@ WebUI.navigateToUrl(GlobalVariable.link)
 
 WebUI.setViewPortSize(1366, 720)
 
-WebUI.click(findTestObject('Login/Masuk'))
+WebUI.click(findTestObject('Auth/Login/Masuk'))
 
-WebUI.setText(findTestObject('Login/input_Ginap_email'), GlobalVariable.email)
+WebUI.setText(findTestObject('Auth/Login/input_Ginap_email'), GlobalVariable.email)
 
-WebUI.setText(findTestObject('Login/input_Ginap_password'), GlobalVariable.pass)
+WebUI.setText(findTestObject('Auth/Login/input_Ginap_password'), GlobalVariable.pass)
 
-WebUI.click(findTestObject('Login/show_Hide_Password'))
+WebUI.click(findTestObject('Auth/Login/show_Hide_Password'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Login/button_Masuk'))
+WebUI.click(findTestObject('Auth/Login/button_Masuk'))
 
-WebUI.verifyElementVisible(findTestObject('Login/Logged in'))
+WebUI.verifyElementVisible(findTestObject('Auth/Login/Logged in'))
 

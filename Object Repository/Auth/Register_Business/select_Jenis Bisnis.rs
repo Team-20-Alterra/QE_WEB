@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Jenis Bisnis</name>
+   <tag></tag>
+   <elementGuidId>e5af8b4c-0044-4b62-83d1-948afd2921dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;Type&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>1e41050f-fe13-44a5-bcb1-1653d2d6d548</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Type</value>
+      <webElementGuid>2b988d53-e1b7-4f5c-97b4-c2db20111529</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Jenis Bisnis</value>
+      <webElementGuid>79ccdaf3-5682-41d5-a410-ca244a64cd0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input mt-7</value>
+      <webElementGuid>b4aa074a-0fba-47af-9d5b-dad1c50aa813</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jenis BisnisMakananMinumanElektronikFashionFinance</value>
+      <webElementGuid>28f0b5ee-df59-4048-bdbb-b6076da25c2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;Wrap&quot;]/div[@class=&quot;containerLogin d-flex flex-column justify-content-center&quot;]/form[@class=&quot;register-business__form&quot;]/select[@class=&quot;input mt-7&quot;]</value>
+      <webElementGuid>e626aa68-ad12-460d-81e2-022b92656df3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='']</value>
+      <webElementGuid>47d6a244-0fbe-4875-9969-f9dc2bdaa7cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/form/select</value>
+      <webElementGuid>fdc70447-60db-4bf0-ac62-4b100e719b7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ginap'])[1]/following::select[1]</value>
+      <webElementGuid>558fea89-358a-41e5-be9f-74b8c288f0fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah Logo'])[1]/preceding::select[2]</value>
+      <webElementGuid>f1a0be02-4eba-4b69-924e-49b204ddfe9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mulai'])[1]/preceding::select[2]</value>
+      <webElementGuid>fdb67b5c-5527-4ee5-b4c4-d8a4a75b1520</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>af441460-aeeb-4bd5-b125-1d747aac9e5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'Type' and @placeholder = 'Jenis Bisnis' and (text() = 'Jenis BisnisMakananMinumanElektronikFashionFinance' or . = 'Jenis BisnisMakananMinumanElektronikFashionFinance')]</value>
+      <webElementGuid>3f6c01ee-9203-46dd-87dd-0c0561c8ba90</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

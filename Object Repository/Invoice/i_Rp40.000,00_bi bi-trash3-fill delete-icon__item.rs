@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Rp40.000,00_bi bi-trash3-fill delete-icon__item</name>
+   <tag></tag>
+   <elementGuidId>0925ef2b-c31e-4dfb-99a8-84d7ce0ae122</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//i[@value='40']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>dc879e99-4c96-4c09-998f-84ae353b0147</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bi bi-trash3-fill delete-icon__item</value>
+      <webElementGuid>a9c14e27-be8b-4fcf-8db3-583d92608e9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>40</value>
+      <webElementGuid>ec40d81b-507f-414f-ab25-0236478d856b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;flex-column w-100&quot;]/div[@class=&quot;container-content mb-5-content&quot;]/div[@class=&quot;invoice-item__container&quot;]/table[@class=&quot;table-invoice text-center&quot;]/tbody[1]/tr[2]/i[@class=&quot;bi bi-trash3-fill delete-icon__item&quot;]</value>
+      <webElementGuid>71c0dfa0-961d-492c-a5a3-d6047b99bddc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//i[@value='40']</value>
+      <webElementGuid>20fdfaf0-34c2-43ca-b43d-6e402557234c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div[2]/div/div[4]/table/tbody/tr[2]/i</value>
+      <webElementGuid>71f946b4-94f3-49ce-8c56-1430ae77cd54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/i</value>
+      <webElementGuid>42b84ef6-bcf7-45e7-8349-3d8fec4018fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

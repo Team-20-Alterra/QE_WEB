@@ -21,17 +21,17 @@ WebUI.callTestCase(findTestCase('Auth/validLogin'), [:], FailureHandling.STOP_ON
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('Customer/a_Pelanggan'))
+WebUI.click(findTestObject('a_Pelanggan'))
 
 WebUI.verifyElementPresent(findTestObject('Customer/p_Pelanggan'), 0)
 
-WebUI.click(findTestObject('Customer/button_Customer'))
-
-if(WebUI.verifyElementNotPresent(findTestObject('Object Repository/Customer/delete user'), 0)) {
+if(WebUI.verifyElementNotPresent(findTestObject('Object Repository/Customer/delete user'), 0, FailureHandling.OPTIONAL)) {
 	
 	Random rnd = new Random()
 	
 	int ID = rnd.nextInt(4)
+
+	WebUI.click(findTestObject('Customer/button_Customer'))
 	
 	WebUI.setText(findTestObject('Customer/input_User ID_input'), "$ID")
 	
@@ -42,7 +42,7 @@ if(WebUI.verifyElementNotPresent(findTestObject('Object Repository/Customer/dele
 	
 	WebUI.click(findTestObject('Object Repository/Customer/delete user'))
 	
-	WebUI.verifyElementNotPresent(findTestObject('Object Repository/Customer/delete user'))
+//	WebUI.verifyElementNotPresent(findTestObject('Object Repository/Customer/delete user'),0)
 	
 }
 

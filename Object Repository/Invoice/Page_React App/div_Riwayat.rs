@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Riwayat</name>
+   <tag></tag>
+   <elementGuidId>a918d562-754c-42e0-88b4-632f73ffc012</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/div/a[4]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>676c7580-5173-46f1-a4f0-73f836a0bf4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>containerMenu d-flex align-items-center</value>
+      <webElementGuid>3e80100d-3d8b-4dca-85bd-7e94466383df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Riwayat</value>
+      <webElementGuid>febff611-ab60-4912-b25d-471fb5a61622</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;d-flex flex-column align-items-center sticky-top containerSidebar&quot;]/div[@class=&quot;d-flex flex-column nav nav-pills w-100 h-100&quot;]/a[@class=&quot;nav-link&quot;]/div[@class=&quot;containerMenu d-flex align-items-center&quot;]</value>
+      <webElementGuid>525ae29e-b67a-4421-99c2-af0714aa0105</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/a[4]/div</value>
+      <webElementGuid>934328b4-58e3-4c0d-aea3-45329deac23f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pelanggan'])[1]/following::div[1]</value>
+      <webElementGuid>5d2a8a0b-e3f2-44ee-9eea-b0466105a0ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoice'])[1]/following::div[2]</value>
+      <webElementGuid>cbd2c0ca-b269-4b26-91d0-47ee16f2dbbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengaturan'])[1]/preceding::div[1]</value>
+      <webElementGuid>9c5932a6-941c-433b-9b4b-ec600e566f7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[4]/div</value>
+      <webElementGuid>5df2b9a4-c329-4f60-876f-7e52b6acb208</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Riwayat' or . = ' Riwayat')]</value>
+      <webElementGuid>57db2628-bdcd-4466-9761-bef3ef868ee3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
