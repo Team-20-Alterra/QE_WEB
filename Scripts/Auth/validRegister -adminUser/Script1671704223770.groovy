@@ -25,10 +25,12 @@ WebUI.setViewPortSize(1366, 720)
 
 WebUI.click(findTestObject('Object Repository/Auth/Register/Daftar'))
 
+//variable to get unique number
 String unique = System.currentTimeMillis().toString()
 
 WebUI.setText(findTestObject('Auth/Register/input_Ginap_Name'), 'mg')
 
+//use unique variable so the email will always e unique
 WebUI.setText(findTestObject('Auth/Register/input_Ginap_Email'), ('mg' + unique) + '@gmail.com')
 
 WebUI.setText(findTestObject('Auth/Register/input_Ginap_Password'), GlobalVariable.pass)

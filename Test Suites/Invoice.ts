@@ -36,7 +36,7 @@
       <guid>8fc3dadb-c162-49fa-8723-f129767aad92</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Invoice/Review invoice send email</testCaseId>
+      <testCaseId>Test Cases/Invoice/Review invoice and send email</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -17,21 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Auth/A - DLL/validRegister -adminUser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Auth/validRegister -adminUser'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Auth/Register_Business/input_Ginap_Bussines_Name'), 'AVANGER')
 
 WebUI.setText(findTestObject('Auth/Register_Business/input_Ginap_Address'), 'Indonesia pride')
 
+//variable to get unique number
 String unique = System.currentTimeMillis().toString()
 
+//use unique number as phone number
 WebUI.setText(findTestObject('Auth/Register_Business/input_Ginap_No_Telp'), unique)
 
 WebUI.selectOptionByValue(findTestObject('Auth/Register_Business/select_Jenis Bisnis'), 'Elektronik', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Auth/Register_Business/Page_React App/select_Bank002 - Bank BRI009 - Bank BNI'), 
-    '1', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Auth/Register_Business/Page_React App/select_Bank002 - Bank BRI009 - Bank BNI'), '1', true)
 
+//use unique number as nomo rekening
 WebUI.setText(findTestObject('Auth/Register_Business/input_Ginap_Rekening'), unique)
 
 WebUI.click(findTestObject('Auth/Register_Business/button_Mulai'))

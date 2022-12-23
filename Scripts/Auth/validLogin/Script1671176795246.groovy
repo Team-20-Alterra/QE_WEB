@@ -21,6 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.link)
 
+//set window size to HD size so the button login will appear
 WebUI.setViewPortSize(1366, 720)
 
 WebUI.click(findTestObject('Auth/Login/Masuk'))

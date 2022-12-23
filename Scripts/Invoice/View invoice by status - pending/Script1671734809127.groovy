@@ -27,6 +27,7 @@ WebUI.click(findTestObject('Object Repository/Invoice/Page_React App/div_Riwayat
 
 WebUI.click(findTestObject('Invoice/Page_React App/status_pending'))
 
+//check ia card with that status is available or not
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/Invoice/Page_React App/invoice card'), 0, FailureHandling.OPTIONAL) == 
 true) {
     WebUI.verifyElementPresent(findTestObject('Invoice/status', [('txt') : 'tunggu', ('Txt') : 'Menunggu Konfirmasi']), 

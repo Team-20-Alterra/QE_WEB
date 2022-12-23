@@ -6,16 +6,16 @@
    <elementGuidId>87b500ef-eb6d-490c-9f0c-2d6ccb299150</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.list-group-item</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//li[@value='34']</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>li.list-group-item</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//li[@class = 'list-group-item']</value>
+         <value>//li[@class = 'list-group-item' and @value != '0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>704b5235-1852-4160-8594-111d735aab8d</webElementGuid>
+      <webElementGuid>c5609759-3895-48ae-b253-3dfa125e2522</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,15 +34,15 @@
       <name>class</name>
       <type>Main</type>
       <value>list-group-item</value>
-      <webElementGuid>17641493-eed9-4eb0-9982-6ca3256486da</webElementGuid>
+      <webElementGuid>dd32776e-f088-42ee-ba34-5daee213ac52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>not equal</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>34</value>
-      <webElementGuid>f3212f7e-dc7f-41ee-8fd7-5364e19476df</webElementGuid>
+      <value>0</value>
+      <webElementGuid>67e03026-9ef1-4a09-a08a-a7c545153c67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>manusia (#34 )                                            </value>
-      <webElementGuid>85327afe-c84a-4940-b77f-6973b9b460c4</webElementGuid>
+      <webElementGuid>86f98b17-cbc7-4fee-bd35-d8b0ceaefe64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;flex-column w-100&quot;]/div[@class=&quot;container-content mb-5-content&quot;]/div[@class=&quot;detailHeader d-flex&quot;]/div[@class=&quot;w-50&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;head-invoice w-50&quot;]/div[@class=&quot;card&quot;]/ul[@class=&quot;list-group list-group-flush&quot;]/li[@class=&quot;list-group-item&quot;]</value>
-      <webElementGuid>5319755c-ca26-46c3-b955-9043b4405c94</webElementGuid>
+      <webElementGuid>904f913b-4e3f-43fc-8a56-2c1e24aff7d4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//li[@value='34']</value>
-      <webElementGuid>98e34dbd-d714-4319-bf22-a1db6caab253</webElementGuid>
+      <webElementGuid>f9519cd5-2f11-4996-abd4-049926d8467a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[2]/div[2]/div[3]/div/ul/li</value>
-      <webElementGuid>3416ac18-0588-49d5-8dd5-6d2e8f0b6c50</webElementGuid>
+      <webElementGuid>da7fb5b0-4059-4bce-a811-4733baa4bce6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[7]/following::li[1]</value>
-      <webElementGuid>8bf06c3f-dac9-403d-93d1-381f96b46941</webElementGuid>
+      <webElementGuid>2c6005c7-0dcd-4ae2-9a0b-781d362c569b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[6]/following::li[1]</value>
-      <webElementGuid>536fcf0d-f08c-4635-a7a4-adb284ae85df</webElementGuid>
+      <webElementGuid>9c5b9be6-5fcc-45a9-9fd5-3931b5d9a5d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Item'])[1]/preceding::li[1]</value>
-      <webElementGuid>2a16997a-f1e6-43c8-9746-7c1006df2a9d</webElementGuid>
+      <webElementGuid>40dff77b-b90d-4305-a5eb-5c57f39e0396</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah Item'])[1]/preceding::li[1]</value>
-      <webElementGuid>c47e09ff-8c8d-4ad4-951a-32481f90d9ab</webElementGuid>
+      <webElementGuid>466fc4d7-d9be-44e1-bc14-7f805763a091</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='manusia']/parent::*</value>
-      <webElementGuid>a22ba8e9-4b5a-4131-b297-f5642e5a8703</webElementGuid>
+      <webElementGuid>ae82bb83-f953-4629-9e17-4d94c211038d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/ul/li</value>
-      <webElementGuid>e11f78e5-641d-4576-8bb0-16f1e3be1d9c</webElementGuid>
+      <webElementGuid>aecf8854-1f2e-4a04-b56f-a4b96e0025bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'manusia (#34 )                                            ' or . = 'manusia (#34 )                                            ')]</value>
-      <webElementGuid>a27ff09e-ddd1-451e-8033-da3285a0e0a0</webElementGuid>
+      <webElementGuid>9ed8e74c-14b7-4bcc-bf9d-220538b3446f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
