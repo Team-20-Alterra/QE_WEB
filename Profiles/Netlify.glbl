@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>Netlify</name>
    <tag></tag>
-   <defaultProfile>false</defaultProfile>
+   <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://localhost:3000/'</initValue>
+      <initValue>'https://ginap.netlify.app/'</initValue>
       <name>link</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
